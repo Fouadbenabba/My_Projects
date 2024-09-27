@@ -37,11 +37,11 @@ func main() {
 	countryEntry.SetPlaceHolder("Enter Country")
 
 	// Create labels for each prayer time
-	fajrLabel := widget.NewLabel("Fajr: -")
-	dhuhrLabel := widget.NewLabel("Dhuhr: -")
-	asrLabel := widget.NewLabel("Asr: -")
-	maghribLabel := widget.NewLabel("Maghrib: -")
-	ishaLabel := widget.NewLabel("Isha: -")
+	fajrLabel := widget.NewLabel("Fajr: ")
+	dhuhrLabel := widget.NewLabel("Dhuhr: ")
+	asrLabel := widget.NewLabel("Asr: ")
+	maghribLabel := widget.NewLabel("Maghrib: ")
+	ishaLabel := widget.NewLabel("Isha: ")
 
 	// Fetch and update prayer times
 	updatePrayerTimes := func() {
